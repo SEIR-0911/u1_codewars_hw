@@ -39,7 +39,10 @@ const sum = numbers.reduce((accumulator, value) => {
 console.log(sum)
 
 ## Reversed Strings
+let revStr = 0;
+function reverseString(str) {
+    revStr = str.split("").reverse().join("")
+}
+reverseString("hello")
+console.log(revStr)
 
-```js
-
-```
