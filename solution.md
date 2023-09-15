@@ -16,7 +16,19 @@ function makeNegative(num) {
 ## Sum of Positive
 
 ```js
-
+function positiveSum(arr) {
+  let positiveSum = 0;
+  if (arr.length > 0) {
+    arr.forEach((elem) => {
+      if (elem > 0) {
+        positiveSum += elem;
+      }
+    });
+  } else {//array length is 0 or no number to add
+    positiveSum = 0
+  }
+  return positiveSum;
+}
 ```
 
 ## Function 2
