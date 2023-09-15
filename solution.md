@@ -43,7 +43,19 @@ function square(num) {
 ## Sum Arrays
 
 ```js
-
+// Sum Numbers
+function sum(numbers) {
+  "use strict";
+  let sum = 0;
+  if (numbers.lenght <= 0) {
+    return 0;
+  } else {
+    numbers.forEach((num) => {
+      sum += num;
+    });
+  }
+  return sum;
+};
 ```
 
 ## Reversed Strings
