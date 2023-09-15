@@ -1,7 +1,16 @@
 ## Return Negative
 
 ```js
-
+function makeNegative(num) {
+  // Code?
+  if (num === 0) {//we don't check for 0;
+    return 0;
+  } else if (num < 0) {//num is already negative number
+    return num;
+  } else { //num is positive number
+    return -num;
+  }
+}
 ```
 
 ## Sum of Positive
