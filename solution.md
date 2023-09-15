@@ -34,7 +34,10 @@ function positiveSum(arr) {
 ## Function 2
 
 ```js
-
+// Write the "square"-function here
+function square(num) {
+  return Math.pow(num, 2);
+}
 ```
 
 ## Sum Arrays
