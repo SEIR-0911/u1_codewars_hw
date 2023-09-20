@@ -12,8 +12,8 @@
     // Pseudocode here
 
     // function sumPositive( ARRAY HERE ){
-    //     if (NUMBER IN ARRAY IS POSITIVE > 0) console.log(SUM OF POSITIVE NUMBERS);
-    //     else console.log(0);}
+        // if (NUMBER IN ARRAY IS POSITIVE > 0) console.log(SUM OF POSITIVE NUMBERS);
+        // else console.log(0);}
 
     //     sumPositive( ARRAY HERE )
 
@@ -34,3 +34,26 @@
        // Problem 3 (squaring an argument)
 
        function squareRoot () {}
+
+
+        // Squaring an Argument
+        square = (num) => {   
+        return Math.pow(num, 2)
+        }
+
+
+        //Sum Arrays
+
+        function sum(numbers) {
+        return numbers.reduce((a,b)=> a +b, 0)
+        }
+
+
+        // Reversed Strings
+
+            function solution(str){
+            let reversed = ''
+            for(let i = str.length - 1; i >= 0; i-){
+            reversed += str[i]
+            }
+            return reversed}
