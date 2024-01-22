@@ -19,17 +19,25 @@ function positiveSum(arr) {
 ## Function 2
 
 ```js
-
+function square (num) {
+  return num = num**2
+}
 ```
 
 ## Sum Arrays
 
 ```js
-
+function sum (numbers) {
+    "use strict";
+  return numbers.reduce((a,b) => a + b,0)
+    
+};
 ```
 
 ## Reversed Strings
 
 ```js
-
+function solution(str){
+  return str.split('').reverse().join('');  
+}
 ```
